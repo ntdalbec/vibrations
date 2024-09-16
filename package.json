@@ -1,0 +1,28 @@
+{
+  "name": "lygia-sketch-base",
+  "version": "1.0.0",
+  "description": "A base template for a full screen shader sketch using lygia via webpack",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntdalbec/lygia-sketch-base.git"
+  },
+  "author": "",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/ntdalbec/lygia-sketch-base/issues"
+  },
+  "homepage": "https://github.com/ntdalbec/lygia-sketch-base#readme",
+  "dependencies": {
+    "@davcri/webpack-glsl-loader": "^1.0.2",
+    "copy-webpack-plugin": "^12.0.2",
+    "html-webpack-plugin": "^5.6.0",
+    "twgl.js": "^5.5.4",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
